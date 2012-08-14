@@ -1,0 +1,26 @@
+#edit aliases
+alias ea='vim ~/bin/dotfile/bash/aliases && source ~/.bashrc'
+
+#ls Command
+alias ll='ls -alh'
+alias ls='ls -F'
+
+#top Command
+alias tc='top -o cpu' #CPU
+alias tm='top -o vsize' #Memory
+
+alias df='df -h'
+alias du='du -h'
+
+alias rvm-restart='rvm_reload_flag=1 source '\''/Users/hanmoi/.rvm/scripts/rvm'\'''
+
+#cd Command
+alias h='cd ~'
+alias up='cd ..'
+alias .='cd ..'
+alias .2='cd ../../'
+alias .3='cd ../../../'
+alias .4='cd ../../../../'
+
+#MacOs Command
+alias o='open . &'
